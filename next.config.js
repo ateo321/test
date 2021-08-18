@@ -4,7 +4,7 @@ module.exports = {
     },
     publicRuntimeConfig: {
         apiUrl: process.env.NODE_ENV === 'development'
-            ? 'http://localhost:3000/api' // development api
-            : '.' // production api
+            ? 'https://test-xi-liard.vercel.app/api' // development api
+            : 'https://test-xi-liard.vercel.app/api' // production api
     }
 }
