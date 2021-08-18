@@ -48,7 +48,7 @@ function App({ Component, pageProps }) {
     return (
         <>
             <Head>
-                <title>Next.js 11 - JWT Authentication Example</title>
+                <title>Authen sample</title>
 
                 {/* bootstrap css */}
                 <link href="//netdna.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
@@ -65,12 +65,6 @@ function App({ Component, pageProps }) {
                 </div>
             </div>
 
-            {/* credits */}
-            <div className="text-center mt-4">
-                <p>
-                    <a href="https://jasonwatmore.com/post/2021/08/04/next-js-11-jwt-authentication-tutorial-with-example-app" target="_top">Next.js 11 - JWT Authentication Tutorial with Example App</a>
-                </p>
-            </div>
         </>
     );
 }
