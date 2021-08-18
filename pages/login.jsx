@@ -47,11 +47,7 @@ function Login() {
             <div className="alert alert-info">
                 Username: test<br />
                 Password: test
-            </div>
-            <div className="alert alert-warning">
-                url: '${baseUrl}' <br />
-                `${publicRuntimeConfig.apiUrl}`
-            </div>
+            </div>            
             <div className="card">
                 <h4 className="card-header">Next.js JWT Login Example</h4>
                 <div className="card-body">
