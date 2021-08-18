@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
+import {getConfig} from 'next/config';
 import * as Yup from 'yup';
 
 import { userService } from 'services';
@@ -46,6 +47,10 @@ function Login() {
             <div className="alert alert-info">
                 Username: test<br />
                 Password: test
+            </div>
+            <div className="alert alert-warning">
+                url: '${baseUrl}' <br />
+                `${publicRuntimeConfig.apiUrl}`
             </div>
             <div className="card">
                 <h4 className="card-header">Next.js JWT Login Example</h4>
