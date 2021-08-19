@@ -5,6 +5,6 @@ module.exports = {
     publicRuntimeConfig: {
         apiUrl: process.env.NODE_ENV === 'development'
             ? 'https://test-xi-liard.vercel.app/api' // development api
-            : 'https://test-xi-liard.vercel.app/api' // production api
+            : 'https://batdongsan360.com/api' // production api
     }
 }
