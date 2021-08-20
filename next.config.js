@@ -6,12 +6,8 @@ module.exports = {
         apiUrl: process.env.NODE_ENV === 'development'
             ? 'https://test-xi-liard.vercel.app/api' // development api
             : 'https://www.batdongsan360.com/api' // production api
-    }
-  }
-};
-
-module.exports = {
-  async headers() {
+    },
+    async headers() {
     return [
       {
         // matching all API routes
@@ -26,4 +22,5 @@ module.exports = {
     ]
   }
 };
+
 
