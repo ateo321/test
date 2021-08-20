@@ -8,7 +8,7 @@ module.exports = {
             : 'https://www.batdongsan360.com/api' // production api
     }
   }
-}
+};
 
 module.exports = {
   async headers() {
