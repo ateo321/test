@@ -1,3 +1,3 @@
-import { AddEdit2 } from 'components/users';
+import { AddEdit } from 'components/users';
 
-export default AddEdit2;
+export default AddEdit;
