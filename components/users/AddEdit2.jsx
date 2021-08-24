@@ -7,9 +7,9 @@ import * as Yup from 'yup';
 import { Link } from 'components';
 import { userService, alertService } from 'services';
 
-export { AddEdit };
+export { AddEdit2 };
 
-function AddEdit(props) {
+function AddEdit2(props) {
     const user = props?.user;
     const isAddMode = !user;
     const router = useRouter();
