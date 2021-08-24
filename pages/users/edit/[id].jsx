@@ -3,10 +3,4 @@ import { userService } from 'services';
 
 export default AddEdit2;
 
-export async function getServerSideProps({ params }) {
-
-    return {
-        props: {  }
-    }
-}
 
