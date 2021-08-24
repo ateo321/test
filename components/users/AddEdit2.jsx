@@ -16,29 +16,6 @@ function AddEdit2(props) {
     const [showPassword, setShowPassword] = useState(false);
     
     // form validation rules 
-    const validationSchema = Yup.object().shape({
-        title: Yup.string()
-            .required('Title is required'),
-        firstName: Yup.string()
-            .required('First Name is required'),
-        lastName: Yup.string()
-            .required('Last Name is required'),
-        email: Yup.string()
-            .email('Email is invalid')
-            .required('Email is required'),
-        role: Yup.string()
-            .required('Role is required'),
-        password: Yup.string()
-            .transform(x => x === '' ? undefined : x)
-            .concat(isAddMode ? Yup.string().required('Password is required') : null)
-            .min(6, 'Password must be at least 6 characters'),
-        confirmPassword: Yup.string()
-            .transform(x => x === '' ? undefined : x)
-            .when('password', (password, schema) => {
-                if (password || isAddMode) return schema.required('Confirm Password is required');
-            })
-            .oneOf([Yup.ref('password')], 'Passwords must match')
-    });
     const formOptions = { resolver: yupResolver(validationSchema) };
 
     // set default form values if user passed in props

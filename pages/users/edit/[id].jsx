@@ -1,4 +1,4 @@
-import { AddEdit } from 'components/users';
+import { AddEdit2 } from 'components/users';
 import { userService } from 'services';
 
 export default AddEdit2;
