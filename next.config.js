@@ -9,8 +9,8 @@ module.exports = {
                 const defaultUsers = [{
                     "title": "Mr",
                     "firstName": "Frank",
-                    "lastName": "Murphy",
-                    "email": "frank.murphy@rustvale.com",
+                    "lastName": "Test",
+                    "email": "my@test.com",
                     "role": "User",
                     "password": "sue123",
                     "id": 1,
