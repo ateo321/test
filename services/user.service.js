@@ -16,8 +16,7 @@ function getAll() {
 }
 
 function getById(id) {
-    return {"title":"Mr","firstName":"Frank","lastName":"Murphy","email":"frank.murphy@rustvale.com","role":"User","password":"sue123","id":1,"dateCreated":"2021-04-08T05:33:05.184Z","dateUpdated":"2021-04-15T07:20:22.768Z"};;
-	//fetchWrapper.get(`${baseUrl}/${id}`);
+    return fetchWrapper.get(`${baseUrl}/1`);
 }
 
 function create(params) {
