@@ -46,7 +46,7 @@ function handleResponse(response) {
 
         if (!response.ok) {
             const error = (data && data.message) || response.statusText;
-            return Promise.reject(error);
+            return Promise.reject(JSON.stringify(error));
         }
 
         return data;
