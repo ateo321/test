@@ -4,7 +4,7 @@ import { userService } from 'services';
 export default AddEdit;
 
 export async function getServerSideProps({ params }) {
-    const user = await userService.getById(1);
+    const user = await getAll()[0];
 
     return {
         props: { user }
