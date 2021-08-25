@@ -1,4 +1,6 @@
 const fs = require('fs');
+var path = require('path');
+global.appRoot = path.resolve('data/users.json');
 
 let users = require('data/users.json');
 
@@ -69,5 +71,5 @@ function _delete(id) {
 // private helper functions
 
 function saveData() {
-    fs.writeFileSync('data/users.json', JSON.stringify(users, null, 4));
+    fs.writeFileSync(appRoot, JSON.stringify(users, null, 4));
 }

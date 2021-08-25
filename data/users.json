@@ -2,12 +2,23 @@
     {
         "title": "Mr",
         "firstName": "Frank",
-        "lastName": "Murphy",
-        "email": "frank.murphy@rustvale.com",
+        "lastName": "Test",
+        "email": "my@test.com",
         "role": "User",
         "password": "sue123",
         "id": 1,
         "dateCreated": "2021-04-08T05:33:05.184Z",
-        "dateUpdated": "2021-08-25T10:03:32.144Z"
+        "dateUpdated": "2021-08-25T11:09:20.496Z"
+    },
+    {
+        "title": "Mr",
+        "firstName": "Dung",
+        "lastName": "Khac",
+        "email": "nkdung910@gmail.com",
+        "role": "User",
+        "password": "123456",
+        "id": 2,
+        "dateCreated": "2021-08-25T11:09:40.788Z",
+        "dateUpdated": "2021-08-25T11:09:40.788Z"
     }
 ]
