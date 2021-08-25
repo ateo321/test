@@ -70,7 +70,7 @@ function AddEdit(props) {
         return userService.update(id, data)
             .then(() => {
                 alertService.success('User updated', { keepAfterRouteChange: true });
-                router.push('..');
+                //router.push('..');
             })
             .catch(alertService.error);
     }
