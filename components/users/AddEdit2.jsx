@@ -17,7 +17,7 @@ function AddEdit2() {
 
 
     return (
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form>
             <h1>{'Edit User'}</h1>            
         </form>
     );
