@@ -8,17 +8,6 @@
         "password": "sue123",
         "id": 1,
         "dateCreated": "2021-04-08T05:33:05.184Z",
-        "dateUpdated": "2021-08-25T11:09:20.496Z"
-    },
-    {
-        "title": "Mr",
-        "firstName": "Dung",
-        "lastName": "Khac",
-        "email": "nkdung910@gmail.com",
-        "role": "User",
-        "password": "123456",
-        "id": 2,
-        "dateCreated": "2021-08-25T11:09:40.788Z",
-        "dateUpdated": "2021-08-25T11:09:40.788Z"
+        "dateUpdated": "2021-08-25T15:29:33.863Z"
     }
 ]
