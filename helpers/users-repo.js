@@ -1,6 +1,7 @@
 const fs = require('fs');
 var path = require('path');
 global.appRoot = path.resolve('data\\users.json');
+console.log(appRoot);
 
 let users = require('data/users.json');
 
