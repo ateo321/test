@@ -2,6 +2,7 @@ const fs = require('fs');
 var path = require('path');
 
 let users = require('data/users.json');
+var file = path.resolve("./data/users.json");
 
 export const usersRepo = {
     getAll,
@@ -70,5 +71,5 @@ function _delete(id) {
 // private helper functions
 
 function saveData() {
-    fs.writeFileSync('data/users.json', JSON.stringify(users, null, 4));
+    fs.writeFileSync(file, JSON.stringify(users, null, 4));
 }
