@@ -105,7 +105,7 @@ return (<>
     </main>
   <form onSubmit={sendMessage}>
 
-    <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="type here.s" />
+    <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="input here" />
 
     <button type="submit" disabled={!formValue}>🕊️</button>
 
